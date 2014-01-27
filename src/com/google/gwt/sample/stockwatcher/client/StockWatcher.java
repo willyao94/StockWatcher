@@ -1,6 +1,7 @@
 package com.google.gwt.sample.stockwatcher.client;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Date;
 
 import com.google.gwt.user.client.Random;
