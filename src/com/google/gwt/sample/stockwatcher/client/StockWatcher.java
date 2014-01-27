@@ -66,6 +66,7 @@ public class StockWatcher implements EntryPoint {
 						}
 					}
 				});
+		System.out.println("LOADED");
 	}
 
 	private void loadLogin() {
