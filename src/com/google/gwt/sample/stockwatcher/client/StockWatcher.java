@@ -1,6 +1,7 @@
 package com.google.gwt.sample.stockwatcher.client;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Date;
 
 import com.google.gwt.user.client.Random;
@@ -49,7 +50,7 @@ public class StockWatcher implements EntryPoint {
 	 */
 	public void onModuleLoad() {
 		// Check login status using login service.
-		/*LoginServiceAsync loginService = GWT.create(LoginService.class);
+		LoginServiceAsync loginService = GWT.create(LoginService.class);
 		loginService.login(GWT.getHostPageBaseURL(),
 				new AsyncCallback<LoginInfo>() {
 					public void onFailure(Throwable error) {
@@ -65,8 +66,8 @@ public class StockWatcher implements EntryPoint {
 						}
 					}
 				});
-		System.out.println("LOADED");*/
-		System.out.println("No Module Load");
+		System.out.println("LOADED");
+		System.out.println("LOAD SUCCESSFUL");
 	}
 
 	private void loadLogin() {
